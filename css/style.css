@@ -1,0 +1,3300 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('../assets/fonts/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff2') format('woff2'),
+        url('../assets/fonts/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../assets/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('../assets/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('../assets/fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff2') format('woff2'),
+        url('../assets/fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../assets/fonts/FONTSPRINGDEMO-IntegralCFRegular.woff2') format('woff2'),
+        url('../assets/fonts/FONTSPRINGDEMO-IntegralCFRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../assets/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2') format('woff2'),
+        url('../assets/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi-Black.woff2') format('woff2'),
+        url('../assets/fonts/Satoshi-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Satoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif ;
+    
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wrapper {
+    max-width: 1582px;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 100%;
+}
+
+/* header */
+header .offer { 
+    background-color: black;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+
+
+}
+
+header .offer p { 
+font-size: 17px;
+}
+
+header .offer p a { 
+    color: #f1f1f1;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+header .offer .img {
+    position: relative;
+    left: 35.8rem;
+
+}
+
+header .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+
+header .wrapper .container .nav-left .toggle {
+    display: none;    
+}
+header .wrapper .container .nav-left .logo h1 { 
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 34px;
+    padding-bottom: 8px;
+    
+}
+.logo a {
+    color: black;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .wrapper .container .nav-left .nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+header .wrapper .container .nav-left .nav-links ul li a{
+    display: flex;
+    gap: 6px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+    }
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+}
+
+.nav-center {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+.search-box {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 740px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 0.5rem;
+    width: 100%;
+    font-size: 16px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Spotlight */
+
+#spotlight { 
+    background-color: #f1f1f1;
+    background-image: url("../assets/images/spotlight.png");
+    background-repeat: no-repeat;
+    background-position: 28px 0px;
+    background-size: 113rem;
+}
+
+#spotlight .container { 
+    
+    position: relative;
+    max-width: 800px;
+
+}
+
+#spotlight .container .left { 
+    padding-top: 6.4rem;
+    padding-bottom: 7rem;
+
+}
+
+#spotlight .container .left h1 { 
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 82px;
+
+}
+
+
+#spotlight .container .left p { 
+    display: block;
+    width: 720px;
+    font-size: 21px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+    color: #00000099;
+
+
+}
+
+#spotlight .container .left button { 
+    padding: 1.3rem 5em;
+    border-radius: 70px;
+    background: black;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+#spotlight .container .left .brands ul {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+#spotlight .container .left .brands ul li {
+    flex: 1;
+    min-width: 150px;
+}
+#spotlight .container .left .brands ul li:first-child {
+    border-right: 2px solid #0000001A;
+    max-width: 200px;
+    height: 92px;
+
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 37px;
+    max-width: 241px;
+}
+
+#spotlight .container .left .brands ul li:last-child {
+    border-left: 2px solid #0000001A;
+    max-width: 202px;
+    height: 92px;
+    padding-left: 48px;
+}
+#spotlight .container .brands ul li h2 { 
+    font-size: 47px;
+
+}
+
+#spotlight .container .brands ul li p { 
+    font-size: 18px;
+    padding-top: 3px;
+    color: #00000099;
+
+}
+
+#spotlight .container .right { 
+    position: absolute;
+
+}
+
+.small_star, .big_star {
+    position: absolute;
+}
+.small_star {
+    bottom: 22em;
+    left: 53em;
+    width: 56px;
+    height: 56px;
+}
+.big_star {
+    bottom: 38em;
+    left: 93em;
+    width: 104px;
+    height: 104px;
+    
+}
+
+#spotlight .spot-bottom { 
+    background-color: #000000;
+
+}
+
+#spotlight .spot-bottom ul { 
+    display: flex;
+    padding: 2.6rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* product */
+
+#products .wrapper .heading { 
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    border-top: 1px solid #0000001A;
+
+}
+
+#products .wrapper .heading h1 { 
+    text-align: center;
+    font-size: 50px;
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+
+}
+
+#products .wrapper .arrival1 ul { 
+    display: flex;
+    gap: 20px;
+
+}
+
+#products .wrapper .arrival1 ul li { 
+    width: 100%;
+
+}
+
+#products .wrapper .arrival1 ul li .dress {
+max-width: 380px;
+}
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 350px;
+}
+#products .wrapper .arrival1 ul li h3 { 
+    font-size: 24px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+#products .wrapper .arrival1 ul li .rating { 
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 8px;
+    
+}
+
+
+#products .wrapper .arrival1 ul li .rating span { 
+    font-size: 16px;
+}
+#products .wrapper .arrival1 ul li .rating .five { 
+    display: flex;
+}
+#products .wrapper .arrival1 ul li .rating .five span { 
+        color: #00000099;
+}
+#products .wrapper .arrival1 ul li .price { 
+    font-size: 24px;
+    font-family: 'Satoshi';
+    font-weight: bold;
+    font-style: normal;
+
+}
+#products .wrapper .arrival1 ul li .prices { 
+    font-size: 24px;
+    font-family: 'Satoshi';
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+#products .wrapper .arrival1 ul li .prices strong {
+
+}
+#products .wrapper .arrival1 ul li .prices del {
+    text-decoration: line-through #00000066;
+    color: #00000066;
+    text-decoration-thickness: 1px;
+
+}
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 14px;
+    background: #FF33331A;
+    color: #FF3333;
+    padding: 6px 16px 6px 16px;
+    border-radius: 62px;
+}
+#products .wrapper .arrival1 .button { 
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+
+}
+#products .wrapper .arrival1 .button a {
+    padding: 1rem 6.4rem;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 18px;
+}
+
+/* types */
+
+#types {
+    padding: 4rem 0;
+    font-family: Arial, sans-serif;
+}
+
+#types .holder {
+    background-color: #F0F0F0;
+    border-radius: 40px;
+
+}
+
+
+#types h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 4rem; 
+    color: #000;
+    text-align: center;
+    font-size: 56px;
+}
+
+#types .grid1 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 35px ;
+}
+#types .grid2 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 6rem ;
+}
+
+#types .card {
+    
+    
+    border-radius: 20px;
+    background-size: cover;
+    padding: 1rem;
+    font-size: 47px;
+    font-weight: bold;
+    color: black;
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+#types .card.casual {
+    background-image: url("../assets/images/casual.png");
+    height: 345px;
+    width: 486px;
+    background-position: center;
+    padding: 30px;
+    
+}
+#types .card.formal {
+    background-image: url("../assets/images/formal.png");
+    width: 818px;
+    height: 345px;
+    padding: 30px;
+
+}
+
+
+#types .card.party {
+    background-image: url("../assets/images/party.png");
+    width: 818px;
+    height: 345px;
+    padding: 30px;
+}
+
+#types .card.gym {
+    background-image: url("../assets/images/gym.png");
+    height: 345px;
+    width: 486px;
+    padding: 30px;
+}
+
+
+/* customers */
+
+#customers { 
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+}
+
+
+#customers .wrapper .top { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#customers .wrapper .top h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 52px; 
+
+}
+div.unity {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+#customers .wrapper .top img { 
+    padding-left: 10px;
+
+}
+
+#customers .wrapper .persons { 
+    border: 1px solid #0000001A;
+    padding: 35px;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 20px;
+
+}
+
+#customers .wrapper .persons img { 
+    width: 100%;
+    max-width: 190px;
+    padding-bottom: 1rem;
+
+}
+
+#customers .wrapper .persons h4 { 
+    font-family: 'Satoshi';
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 1rem;
+
+}
+
+#customers .wrapper .persons h4 span { 
+    height: 30px;
+
+}
+
+#customers .wrapper .persons h4 span img { 
+    width: 26px;
+}
+
+#customers .wrapper .persons p { 
+    font-size: 22px;
+    color: #00000099;
+
+}
+
+/* Newsletter Section */
+
+#newsletter {
+    height: 10vh;
+    position: relative;
+    z-index: 1;
+}
+.content {
+    background-color: #000;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 655px;
+}
+
+.placer {
+    display: flex;
+    flex-direction: column; 
+    gap : 1rem; 
+    width: 100%;
+    max-width: 460px;
+}
+.letter {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+
+}
+.letter img {
+    width: 100%;
+
+}
+.newsletter-form {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 1rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.newsletter-form input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+}
+
+.placer button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 16px 0rem ;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+/* Footer */
+#footer {
+    background-color: #F0F0F0;
+    padding: 3rem 1rem;
+    }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 6rem;
+}
+.footer {
+
+}
+.footer h3 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#footer .footer p {
+    width: 100%;
+    max-width: 307px;
+    color: #555;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+#footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 11px 8px 6px 8px;
+    border-radius: 50%;
+    
+}
+.social-icons a {
+    display: inline-block;
+    
+}
+.social-fb {
+    background-color: #000;
+    padding: 11px 8px 6px 8px;
+    border-radius: 50%;
+    
+}
+
+.social-fb img {
+    width: 30px;
+    height: 22px;
+    
+}
+.social-icons a img {
+    width: 30px;
+    height: 22px;
+}
+.footer-col {
+    padding-top: 12px;
+    
+}
+
+#footer h4 {
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.footer-col ul li {
+    line-height: 40px;
+
+}
+.payment-container {
+    display: flex;
+    gap: 20px;
+
+}
+.payment-icons {
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-bottom {
+    border-top: 1px solid #0000001A;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-bottom p {
+    font-size: 18px;
+}
+.payment-icons img {
+height: 25px;
+width:40px;
+
+
+
+}
+
+
+/* responsive */
+@media all and (max-width:1808px) { 
+body {
+    overflow-x: hidden;
+}
+
+}
+
+
+@media all and (min-width:1440px) and (max-width:1807px) { 
+
+header .offer p {
+    font-size: 16px;
+}
+header .offer .img {
+    position: relative;
+    left: 26rem;
+}
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.logo a {
+    color: black;
+}
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 32px;
+    
+}
+header .wrapper .container .nav-left .nav-links ul li a {
+    gap: 4px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+header .wrapper .container .nav-left .nav-links ul {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.search-box {
+    padding: 12px 16px;
+    max-width: 585px;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    background-color: #f1f1f1;
+    background-image: url("../assets/images/spotlight.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90rem;
+}
+#spotlight .container {
+    position: relative;
+    max-width: 610px;
+}
+#spotlight .container .left {
+
+    padding-bottom: 46px;
+}
+#spotlight .container .left h1 {
+
+    font-size: 64px;
+}
+#spotlight .container .left p {
+    width: 545px;
+    font-size: 16px;
+
+
+}
+#spotlight .container .left button {
+    padding: 16px 65px;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 40px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 16px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 175px;
+    height: 74px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 0px;
+    max-width: 156px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 0px;
+    height: 74px;
+    padding-left: 40px;
+
+}
+#spotlight .spot-bottom ul {
+    padding: 2rem 6rem;
+
+
+
+}
+.big_star {
+    bottom: 30em;
+    left: 72em;
+}
+.small_star {
+    bottom: 16.4em;
+    left: 39em;
+}
+
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 298px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 20px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 14px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 6px 14px 6px 14px;
+
+}
+#products .wrapper .arrival1 .button a {
+    padding: 16px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#types h2 {
+    font-size: 48px;
+}
+#types .card.casual {
+    width: 407px;
+    height: 289px;
+
+}
+#types .card.formal {
+
+    width: 684px;
+    height: 289px;
+
+}
+#types .card.party {
+    width: 684px;
+    height: 289px;
+}
+
+#types .card.gym {
+
+    width: 407px;
+    height: 289px;
+    
+}
+#customers .wrapper .persons {
+    padding: 31px;
+    max-width: 400px;
+
+}
+#customers .wrapper .top h1 {
+    font-size: 48px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 140px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 20px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 27px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 23px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 16px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 655px;
+}
+.content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+
+}
+.placer {
+    max-width: 334px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 16px;
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 307px;
+    font-size: 14px;
+    
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+
+}
+
+@media all and (min-width:1280px) and (max-width:1439px) { 
+
+header .offer p {
+    font-size: 16px;
+}
+header .offer .img {
+    position: relative;
+    left: 26rem;
+}
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 32px;
+    
+}
+header .wrapper .container .nav-left .nav-links ul li a {
+    gap: 4px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+header .wrapper .container .nav-left .nav-links ul {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.search-box {
+    padding: 12px 16px;
+    max-width: 585px;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    background-color: #f1f1f1;
+    background-image: url("../assets/images/spotlight.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90rem;
+}
+#spotlight .container {
+    position: relative;
+    max-width: 610px;
+}
+#spotlight .container .left {
+
+    padding-bottom: 46px;
+}
+#spotlight .container .left h1 {
+
+    font-size: 64px;
+}
+#spotlight .container .left p {
+    width: 545px;
+    font-size: 16px;
+
+
+}
+#spotlight .container .left button {
+    padding: 16px 65px;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 40px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 16px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 175px;
+    height: 74px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 0px;
+    max-width: 156px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 0px;
+    height: 74px;
+    padding-left: 40px;
+
+}
+#spotlight .spot-bottom ul {
+    padding: 2rem 6rem;
+
+
+
+}
+.big_star {
+    bottom: 30em;
+    left: 72em;
+}
+.small_star {
+    bottom: 16.4em;
+    left: 39em;
+}
+
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 298px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 20px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 14px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 6px 14px 6px 14px;
+
+}
+#products .wrapper .arrival1 .button a {
+    padding: 16px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#types h2 {
+    font-size: 48px;
+}
+#types .card.casual {
+    width: 407px;
+    height: 289px;
+
+}
+#types .card.formal {
+
+    width: 684px;
+    height: 289px;
+
+}
+#types .card.party {
+    width: 684px;
+    height: 289px;
+}
+
+#types .card.gym {
+
+    width: 407px;
+    height: 289px;
+    
+}
+#customers .wrapper .persons {
+    padding: 31px;
+    max-width: 400px;
+
+}
+#customers .wrapper .top h1 {
+    font-size: 48px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 140px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 20px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 27px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 23px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 16px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 655px;
+}
+.content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+
+}
+.placer {
+    max-width: 334px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 16px;
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 307px;
+    font-size: 14px;
+    
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+
+
+}
+
+
+
+@media all and (min-width:1024px) and (max-width:1279px) { 
+
+header .offer {
+    padding: 10px 0px;
+}
+header .offer p {
+    font-size: 14px;
+}
+header .offer .img {
+    position: relative;
+    left: 18.6rem;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 28px;
+    
+}
+header .wrapper .container .nav-left .nav-links ul li a {
+    gap: 4px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .wrapper .container .nav-left .nav-links ul {
+    display: flex
+;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.search-box {
+    padding: 10px 16px;
+    max-width: 350px;
+}
+.search-box input {
+
+    font-size: 15px;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    background-color: #f1f1f1;
+    background-image: url("../assets/images/spotlight.png");
+    background-repeat: no-repeat;
+    background-position: center 67px;
+    background-size: 70rem;
+}
+#spotlight .container {
+    position: relative;
+    max-width: 500px;
+}
+#spotlight .container .left {
+
+    padding-bottom: 46px;
+}
+#spotlight .container .left h1 {
+
+    font-size: 50px;
+}
+#spotlight .container .left p {
+    width: 474px;
+    font-size: 14px;
+
+
+}
+#spotlight .container .left button {
+    padding: 12px 50px;
+}
+#spotlight .container .left .brands ul {
+    gap: 1rem;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 34px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 14px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 145px;
+    height: 64px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 0px;
+    max-width: 145px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 0px;
+    height: 64px;
+    padding-left: 16px;
+
+}
+#spotlight .spot-bottom ul {
+    padding: 1rem 2rem;
+}
+#spotlight .spot-bottom ul li img {
+    width: 140px;
+    height: 30px;
+}
+.big_star {
+    bottom: 24em;
+    left: 54em;
+    width: 80px;
+    height: 80px;
+}
+.small_star {
+    bottom: 16.4em;
+    left: 33em;
+}
+#products .wrapper .heading {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 46px;
+}
+
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 233px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 18px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 12px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 6px 14px 6px 14px;
+
+}
+#products .wrapper .arrival1 ul li .price {
+    font-size: 20px;
+}
+#products .wrapper .arrival1 .button {
+    padding-top: 4rem;
+}
+#products .wrapper .arrival1 .button a {
+    padding: 12px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .prices {
+    font-size: 20px;
+    gap: 10px;
+
+}
+#types h2 {
+    font-size: 46px;
+}
+#types .card.casual {
+    width: 350px;
+    height: 220px;
+
+}
+#types .card.formal {
+
+    width: 522px;
+    height: 220px;
+
+}
+#types .card.party {
+    width: 522px;
+    height: 220px;
+}
+
+#types .card.gym {
+
+    width: 350px;
+    height: 220px;
+    
+}
+#types .card {
+    font-size: 36px;
+}
+#customers .wrapper .persons {
+    padding: 19px;
+    max-width: 300px;
+
+}
+#customers .wrapper .top h1 {
+    font-size: 46px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 120px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 18px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 24px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 20px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 13px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 655px;
+}
+.content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+
+}
+.placer {
+    max-width: 334px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 16px;
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 307px;
+    font-size: 14px;
+    
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+
+
+
+
+
+
+}
+
+
+@media all and (min-width:768px) and (max-width:1023px) { 
+
+header .offer {
+    padding: 10px 0px;
+}
+header .offer p {
+    font-size: 14px;
+}
+header .offer .img {
+    position: relative;
+    left: 10.9rem;
+}
+.wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+header .wrapper .container .nav-left .toggle {
+    display: block;
+    height: 33px;
+}
+header .wrapper .container .nav-left .toggle img {
+    width: 100%;
+    height: 33px;
+
+}
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 32px;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+
+}
+header .wrapper .container .nav-left .nav-links {
+    display: none;
+}
+
+.search-box {
+    padding: 7px 16px;
+    max-width: 340px;
+}
+.search-box input {
+
+    font-size: 15px;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+        background-color: #f1f1f1;
+    background-image: url("../assets/images/spotlight.png");
+    background-repeat: no-repeat;
+    background-position: center 27.8rem;
+    background-size: 50rem;
+    background-position-x: center
+}
+#spotlight .container {
+    position: relative;
+    max-width: 700px;
+    padding-bottom: 7.7rem;
+}
+#spotlight .container .left {
+    padding-top: 3.5rem;
+    padding-bottom: 46px;
+}
+#spotlight .container .left h1 {
+    line-height: 65px;
+    font-size: 67px;
+}
+#spotlight .container .left p {
+    width: 530px;
+    font-size: 18px;
+
+
+}
+#spotlight .container .left button {
+    padding: 21px 120px;
+}
+#spotlight .container .left .brands {
+    max-width: 326px;
+}
+#spotlight .container .left .brands ul {
+    gap: 1rem;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 34px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 14px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 145px;
+    height: 64px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 0px;
+    max-width: 145px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 0px;
+    height: 64px;
+    padding-left: 86px;
+    border: none;
+
+}
+.big_star {
+    bottom: 9em;
+    left: 41em;
+    width: 50px;
+    height: 50px;
+}
+.small_star {
+    bottom: 4.4em;
+    left: 24em;
+    width: 35px;
+    height: 35px;
+}
+#spotlight .spot-bottom ul {
+    padding: 1rem 1rem;
+}
+#spotlight .spot-bottom ul li img {
+    width: 107px;
+    height: 27px;
+}
+#products .wrapper .heading {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 42px;
+}
+#products .wrapper .arrival1 ul {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#products .wrapper .arrival1 ul li {
+    width: 250px;
+}
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 233px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 18px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 12px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 6px 14px 6px 14px;
+
+}
+#products .wrapper .arrival1 ul li .price {
+    font-size: 20px;
+}
+#products .wrapper .arrival1 .button {
+    padding-top: 4rem;
+}
+#products .wrapper .arrival1 .button a {
+    padding: 12px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .prices {
+    font-size: 20px;
+    gap: 10px;
+
+}
+#types .grid1 {
+    gap: 26px;
+
+}
+#types h2 {
+    font-size: 42px;
+}
+#types .card.casual {
+    width: 255px;
+    height: 167px;
+
+}
+#types .card.formal {
+
+    width: 395px;
+    height: 167px;
+
+}
+#types .card.party {
+    width: 395px;
+    height: 167px;
+}
+
+#types .card.gym {
+
+    width: 255px;
+    height: 167px;
+    
+}
+#types .card {
+    font-size: 28px;
+}
+#customers .wrapper .persons {
+    padding: 19px;
+    max-width: 350px;
+
+}
+#customers .wrapper .persons:last-child {
+    display: none;
+}
+#customers .wrapper .top h1 {
+    font-size: 38px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 120px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 14px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 24px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 20px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 13px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 655px;
+}
+.content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+
+}
+.placer {
+    max-width: 245px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.newsletter-form input {
+    font-size: 14px;
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 15px;
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 307px;
+    font-size: 14px;
+    
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+
+.footer-col ul li {
+    line-height: 28px;
+}
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media all and (min-width:425px) and (max-width:767px) { 
+header .offer {
+    padding: 8px 0px;
+}
+header .offer p {
+    font-size: 12px;
+}
+header .offer .img {
+    display: none;
+}
+.wrapper {
+    max-width: 404px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+header .wrapper .container .nav-left .toggle {
+    display: block;
+    height: 30px;
+    width: 26px;
+}
+header .wrapper .container .nav-left .toggle img {
+    width: 100%;
+    height: 26px;
+
+}
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 26px;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+header .wrapper .container .nav-left .nav-links {
+    display: none;
+}
+.nav-center {
+    padding-right: 2.4rem;
+}
+.search-box {
+    padding: 0px;
+    max-width: 0px;
+}
+.search-box {
+    width: 0;
+    background:none;
+}
+.search-box input {
+
+    display: none;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    
+    background-image: url("../assets/images/spotsmall.png");
+        background-repeat: no-repeat;
+        background-size: 31.5rem;
+        background-position: center 33rem;
+    
+}
+
+
+#spotlight .container {
+    position: relative;
+    max-width: 395px;
+    padding-bottom: 31.8rem;
+}
+#spotlight .container .left {
+    padding-top: 3.5rem;
+    padding-bottom: 0px;
+}
+#spotlight .container .left h1 {
+    line-height: 40px;
+    font-size: 42px;
+}
+#spotlight .container .left p {
+    max-width: fit-content;
+    font-size: 16px;
+    padding-bottom: 25px;
+
+
+}
+#spotlight .container .left button {
+    padding: 20px 160px;
+}
+#spotlight .container .left .brands {
+    max-width: 365px;
+    padding-left: 41px;
+}
+#spotlight .container .left .brands ul {
+    gap: 1rem;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 30px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 14px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 145px;
+    height: 64px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 0px;
+    max-width: 145px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 222px;
+    height: 64px;
+    padding-left: 95px;
+    border: none;
+
+}
+.big_star {
+    bottom: -9em;
+    left: 20em;
+    width: 76px;
+    height: 76px;
+}
+.small_star {
+    bottom: -13.4em;
+    left: 1em;
+    width: 44px;
+    height: 43px;
+}
+#spotlight .spot-bottom ul {
+    padding: 1rem 1rem;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+#spotlight .spot-bottom ul li img {
+    width: 120px;
+    height: 27px;
+}
+#spotlight .spot-bottom ul li:nth-child(4) {
+    padding-top: 1rem ;
+
+}
+#spotlight .spot-bottom ul li:last-child {
+    padding-top: 1rem ;
+}
+
+#products .wrapper .heading {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 36px;
+}
+#products .wrapper .arrival1 ul {
+    display: flex;
+    gap: 21px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#products .wrapper .arrival1 ul li .dress {
+    max-width: 192px;
+}
+#products .wrapper .arrival1 ul li {
+    width: 200px;
+}
+#products .wrapper .arrival1 ul li:nth-child(3){
+    display: none;
+}
+#products .wrapper .arrival1 ul li:last-child {
+    display: none;
+}
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 207px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 12px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 6px 14px 6px 14px;
+
+}
+#products .wrapper .arrival1 ul li .price {
+    font-size: 20px;
+}
+#products .wrapper .arrival1 .button {
+    padding-top: 4rem;
+}
+#products .wrapper .arrival1 .button a {
+    padding: 20px 164px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .prices {
+    font-size: 20px;
+    gap: 10px;
+
+}
+#types .grid1 {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#types .grid2 {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 3rem;
+}
+#types h2 {
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#types .card.casual {
+    width: 361px;
+    height: 172px;
+
+}
+#types .card.formal {
+
+    width: 361px;
+    height: 172px;
+
+}
+#types .card.party {
+    width: 361px;
+    height: 172px;
+}
+
+#types .card.gym {
+
+    width: 361px;
+    height: 172px;
+    
+}
+#types .card {
+    font-size: 28px;
+}
+#customers .wrapper .persons {
+    padding: 36px 40px;
+    max-width: none;
+
+}
+#customers .wrapper .persons:nth-child(2) {
+    display: none;
+}
+#customers .wrapper .persons:last-child {
+    display: none;
+}
+#customers .wrapper .top {
+    align-items: end;
+}
+#customers .wrapper .top h1 {
+    font-size: 36px;
+    max-width: 300px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 130px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 20px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 24px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 20px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 14px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+.content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+
+}
+.placer {
+    max-width: 340px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.newsletter-form input {
+    font-size: 14px;
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 15px;
+}
+#footer {
+    background-color: #F0F0F0;
+    padding: 11rem 1rem
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 360px;
+    font-size: 14px;
+    
+}
+.box {
+    padding-right: 3rem;
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+.footer.footer-col .rez {
+    padding-right: 30px;
+}
+.footer-col ul li {
+    line-height: 28px;
+}
+.footer-container {
+    display: flex
+;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+}
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    padding-top: 1rem;
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+.footer-bottom {
+justify-content:center;
+
+}
+
+}
+
+
+
+@media all and (min-width:375px) and (max-width:424px) { 
+header .offer {
+    padding: 8px 0px;
+}
+header .offer p {
+    font-size: 12px;
+}
+header .offer .img {
+    display: none;
+}
+.wrapper {
+    max-width: 326px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+header .wrapper .container .nav-left .toggle {
+    display: block;
+    height: 30px;
+    width: 26px;
+}
+header .wrapper .container .nav-left .toggle img {
+    width: 100%;
+    height: 26px;
+
+}
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 24px;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+header .wrapper .container .nav-left .nav-links {
+    display: none;
+}
+.nav-center {
+    padding-right: 2.4rem;
+}
+.search-box {
+    padding: 0px;
+    max-width: 0px;
+}
+.search-box {
+    width: 0;
+    background:none;
+}
+.search-box input {
+
+    display: none;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    
+    background-image: url("../assets/images/spotsmall.png");
+    background-repeat: no-repeat; 
+    background-size: 26.8rem;
+    background-position: center 34rem;
+
+}
+
+
+#spotlight .container {
+    position: relative;
+    max-width: 395px;
+    padding-bottom: 29rem;
+}
+#spotlight .container .left {
+    padding-top: 3.5rem;
+    padding-bottom: 0px;
+}
+#spotlight .container .left h1 {
+    line-height: 40px;
+    font-size: 36px;
+}
+#spotlight .container .left p {
+    max-width: fit-content;
+    font-size: 14px;
+    padding-bottom: 25px;
+
+
+}
+#spotlight .container .left button {
+    padding: 18px 124px;
+}
+#spotlight .container .left .brands {
+    max-width: 365px;
+    padding-left: 0px;
+}
+#spotlight .container .left .brands ul {
+    gap: 1rem;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 30px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 14px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 145px;
+    height: 64px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 14px;
+    max-width: 145px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 222px;
+    height: 64px;
+    padding-left: 95px;
+    border: none;
+
+}
+.big_star {
+    bottom: -9em;
+    left: 17em;
+    width: 67px;
+    height: 67px
+}
+.small_star {
+    bottom: -15.4em;
+    left: -1em;
+    width: 44px;
+    height: 43px;
+}
+#spotlight .spot-bottom ul {
+    padding: 24px 7px;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+#spotlight .spot-bottom ul li img {
+    width: 120px;
+    height: 27px;
+}
+#spotlight .spot-bottom ul li:nth-child(4) {
+    padding-top: 1rem ;
+
+}
+#spotlight .spot-bottom ul li:last-child {
+    padding-top: 1rem ;
+}
+
+#products .wrapper .heading {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 36px;
+}
+#products .wrapper .arrival1 ul {
+    display: flex;
+    gap: 21px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#products .wrapper .arrival1 ul li .dress {
+    max-width: 152px;
+}
+#products .wrapper .arrival1 ul li {
+    width: 152px;
+}
+#products .wrapper .arrival1 ul li:nth-child(3){
+    display: none;
+}
+#products .wrapper .arrival1 ul li:last-child {
+    display: none;
+}
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 168px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 13px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 12px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 4px 12px 4px 12px;
+
+}
+#products .wrapper .arrival1 ul li .rating {
+    gap: 9px;
+}
+#products .wrapper .arrival1 ul li .price {
+    font-size: 18px;
+}
+#products .wrapper .arrival1 .button {
+    padding-top: 4rem;
+}
+#products .wrapper .arrival1 .button a {
+    padding: 20px 120px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .prices {
+    font-size: 18px;
+    gap: 8px;
+
+}
+#types .grid1 {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#types .grid2 {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 3rem;
+}
+#types h2 {
+    font-size: 38px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#types .card.casual {
+    width: 295px;
+    height: 143px
+
+}
+#types .card.formal {
+
+    width: 295px;
+    height: 143px
+
+}
+#types .card.party {
+    width: 295px;
+    height: 143px
+}
+
+#types .card.gym {
+
+    width: 295px;
+    height: 143px
+}
+#types .card {
+    font-size: 28px;
+}
+#customers .wrapper .persons {
+    padding: 26px 8px;
+    max-width: none;
+
+}
+#customers .wrapper .persons:nth-child(2) {
+    display: none;
+}
+#customers .wrapper .persons:last-child {
+    display: none;
+}
+#customers .wrapper .top {
+    align-items: end;
+}
+#customers .wrapper .top h1 {
+    font-size: 32px;
+    max-width: 236px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 130px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 20px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 24px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 20px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 14px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 350px;
+}
+.content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+
+}
+.placer {
+    max-width: 340px;
+}
+.newsletter-form {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.newsletter-form input {
+    font-size: 14px;
+}
+.placer button {
+    padding: 12px 0rem;
+    font-size: 15px;
+}
+#footer {
+    background-color: #F0F0F0;
+    padding: 11rem 1rem
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 360px;
+    font-size: 14px;
+    
+}
+.box {
+    padding-right: 0px;
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 16px;
+}
+.footer.footer-col .rez {
+    padding-right: 30px;
+}
+.footer-col ul li {
+    line-height: 28px;
+}
+.footer-container {
+    display: flex
+;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+}
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    padding-top: 1rem;
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+.footer-bottom {
+justify-content:center;
+
+}
+
+
+
+}
+
+
+
+
+@media all and (min-width:320px) and (max-width:374px) { 
+header .offer {
+    padding: 8px 0px;
+}
+header .offer p {
+    font-size: 11px;
+}
+header .offer .img {
+    display: none;
+}
+.wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+header .wrapper .container .nav-left .toggle {
+    display: block;
+    height: 30px;
+    width: 26px;
+}
+header .wrapper .container .nav-left .toggle img {
+    width: 100%;
+    height: 26px;
+
+}
+header .wrapper .container .nav-left .logo h1 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 24px;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+header .wrapper .container .nav-left .nav-links {
+    display: none;
+}
+.nav-center {
+    padding-right: 2.4rem;
+}
+.search-box {
+    padding: 0px;
+    max-width: 0px;
+}
+.search-box {
+    width: 0;
+    background:none;
+}
+.search-box input {
+
+    display: none;
+}
+.nav-links a {
+    margin-left: 9px;
+}
+.nav-right {
+    gap: 14px;
+}
+#spotlight {
+    
+    background-image: url("../assets/images/spotsmall.png");
+    background-repeat: no-repeat; 
+    background-size: 22.8rem;
+    background-position: center 34rem;
+
+}
+
+
+#spotlight .container {
+    position: relative;
+    max-width: 395px;
+    padding-bottom: 26.8rem;
+}
+#spotlight .container .left {
+    padding-top: 3.5rem;
+    padding-bottom: 0px;
+}
+#spotlight .container .left h1 {
+    line-height: 40px;
+    font-size: 32px;
+}
+#spotlight .container .left p {
+    max-width: fit-content;
+    font-size: 11px;
+    padding-bottom: 25px;
+
+
+}
+#spotlight .container .left button {
+    padding: 16px 110px;
+}
+#spotlight .container .left .brands {
+    max-width: 365px;
+    padding-left: 0px;
+}
+#spotlight .container .left .brands ul {
+    gap: 0px;
+}
+#spotlight .container .brands ul li h2 {
+    font-size: 28px;
+}
+#spotlight .container .brands ul li p {
+    font-size: 13px;
+
+}
+#spotlight .container .left .brands ul li:first-child {
+
+    max-width: 145px;
+    height: 58px;
+}
+#spotlight .container .left .brands ul li:nth-child(2) {
+    padding-left: 14px;
+    max-width: 145px;
+}
+#spotlight .container .left .brands ul li:last-child {
+    max-width: 222px;
+    height: 64px;
+    padding-left: 95px;
+    border: none;
+
+}
+.big_star {
+    bottom: -9em;
+    left: 14em;
+    width: 56px;
+    height: 63px
+}
+.small_star {
+    bottom: -14.4em;
+    left: 0em;
+    width: 33px;
+    height: 43px;
+}
+#spotlight .spot-bottom ul {
+    padding: 20px 7px;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+#spotlight .spot-bottom ul li img {
+    width: 120px;
+    height: 27px;
+}
+#spotlight .spot-bottom ul li:nth-child(4) {
+    padding-top: 1rem ;
+
+}
+#spotlight .spot-bottom ul li:last-child {
+    padding-top: 1rem ;
+}
+
+#products .wrapper .heading {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+#products .wrapper .heading h1 {
+    text-align: center;
+    font-size: 32px;
+}
+#products .wrapper .arrival1 ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#products .wrapper .arrival1 ul li .dress {
+    max-width: 145px;
+}
+#products .wrapper .arrival1 ul li {
+    width: 145px;
+}
+#products .wrapper .arrival1 ul li:nth-child(3){
+    display: none;
+}
+#products .wrapper .arrival1 ul li:last-child {
+    display: none;
+}
+#products .wrapper .arrival1 ul li .dress img {
+    border-radius: 20px;
+    width: 100%;
+    height: 160px;
+}
+#products .wrapper .arrival1 ul li h3 {
+    font-size: 13px;
+}
+
+#products .wrapper .arrival1 ul li .rating span {
+    font-size: 12px;
+}
+
+#products .wrapper .arrival1 ul li .prices span {
+    font-size: 12px;
+    padding: 4px 12px 4px 12px;
+
+}
+#products .wrapper .arrival1 ul li .rating {
+    gap: 9px;
+}
+#products .wrapper .arrival1 ul li .price {
+    font-size: 18px;
+}
+#products .wrapper .arrival1 .button {
+    padding-top: 4rem;
+}
+#products .wrapper .arrival1 .button a {
+    padding: 15px 116px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    color: black;
+    font-size: 16px;
+}
+
+#products .wrapper .arrival1 ul li .prices {
+    font-size: 14px;
+    gap: 8px;
+
+}
+#types .grid1 {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#types .grid2 {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 3rem;
+}
+#types h2 {
+    font-size: 36px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#types .card.casual {
+    width: 280px;
+    height: 143px
+
+}
+#types .card.formal {
+
+    width: 280px;
+    height: 143px
+
+}
+#types .card.party {
+    width: 280px;
+    height: 143px
+}
+
+#types .card.gym {
+
+    width: 280px;
+    height: 143px
+}
+#types .card {
+    font-size: 28px;
+}
+#customers .wrapper .persons {
+    padding: 26px 8px;
+    max-width: none;
+
+}
+#customers .wrapper .persons:nth-child(2) {
+    display: none;
+}
+#customers .wrapper .persons:last-child {
+    display: none;
+}
+#customers .wrapper .top {
+    align-items: end;
+}
+#customers .wrapper .top h1 {
+    font-size: 28px;
+    max-width: 217px;
+}
+#customers .wrapper .persons img {
+    width: 100%;
+    max-width: 130px;
+    padding-bottom: 1rem;
+}
+
+#customers .wrapper .persons h4 {
+
+    font-size: 20px;
+
+}
+
+#customers .wrapper .persons h4 span {
+    height: 24px;
+}
+#customers .wrapper .persons h4 span img {
+    width: 20px;
+}
+
+#customers .wrapper .persons p {
+    font-size: 14px;
+    color: #00000099;
+}
+
+#newsletter h2 {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 336px;
+}
+.content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+
+}
+.placer {
+    max-width: 340px;
+}
+.newsletter-form {
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.newsletter-form input {
+    font-size: 13px;
+}
+.placer button {
+    padding: 10px 0rem;
+    font-size: 14px;
+}
+#footer {
+    background-color: #F0F0F0;
+    padding: 11rem 1rem
+}
+.footer h3 {
+    font-size: 33.45px;
+
+}
+#footer .footer p {
+
+    max-width: 360px;
+    font-size: 14px;
+    
+}
+.box {
+    padding-right: 0px;
+}
+#footer h4 {
+
+    font-size: 16px;
+}
+#footer ul li a {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 15px;
+}
+.footer.footer-col .rez {
+    padding-right: 30px;
+}
+.footer-col ul li {
+    line-height: 28px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+}
+.social-icons {
+    background-color: #fff;
+    border: 1px solid #00000033;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb {
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.social-fb img {
+    width: 16px;
+    height: 15px;
+}
+.social-icons a img {
+    width: 16px;
+    height: 16px;
+}
+.payment-container {
+    padding-top: 1rem;
+    gap: 12px;
+}
+.payment-icons {
+
+    padding: 5px 6px 5px 6px;
+
+}
+.payment-icons img {
+    height: 15px;
+    width: 32px;
+}
+.footer-bottom {
+justify-content:center;
+
+}
+
+
+
+}
+
